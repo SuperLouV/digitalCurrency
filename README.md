@@ -13,7 +13,7 @@
 3. https://api.kraken.com/0/public/Trades?pair=BTCUSD  
 4. https://api.kraken.com/0/public/Trades?pair=ETHUSD  
 ## Program logic and structure 
-### Front-end: Ajax/HTML/CSS/Bootstrap
+### Front-end: Ajax/HTML/CSS/Bootstrap/JavaScript
  1. Index.html as main page, Ajax requests data updates to the background every three seconds, request URL is **(/v1/data)**  
  2. Generated tables using Ajax  
  3. There are **3** tables in main page, the left table shows the real-time BTC price and ETH price from Huobi API, the middle tabls shows the real-time BTC price and ETH price from Kraken API, the right table used to recommend lowest price to buy and highest price to sell and resource links
