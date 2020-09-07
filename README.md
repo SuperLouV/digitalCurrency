@@ -27,8 +27,7 @@
 Database name: digitalCurrency  **You need to create your own database**  
 Table: coins  
 Parameter:  
-    @GeneratedValue(generator = "jpa-uuid")
-    @Column(length = 32)
+
     private String coin_id;//KEY   type is UUID
 
     private String coin_type;//BTC or ETH
@@ -38,4 +37,6 @@ Parameter:
     private String coin_direction;//sell or buy
 
     private String coin_source;//huobi or kraken
-  
+### Guide
+1. Create database digitalCurrency in MySQL  
+2. Set username and password of MySQL in src/main/resources/application.yml
