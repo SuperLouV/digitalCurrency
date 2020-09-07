@@ -1,0 +1,21 @@
+#开发环境配置
+server:
+  port: 8080
+
+
+
+#local database
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/digitalCurrency?serverTimezone=UTC
+    username: root
+    password: lyl961008
+
+  jpa:
+     hibernate:
+      ddl-auto: update
+     show-sql: true
+#    use-new-id-generator-mappings: false
+#    show-sql: true
+spring.mvc.static-path-pattern: /static/**
