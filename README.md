@@ -25,9 +25,11 @@
 4. Controller: Data interaction with the front-end
 ### Database: MySQL 
 Database name: digitalCurrency  **You need to create your own database**  
-Table: coins
+Table: coins  
 Parameter:  
-    private String coin_id; //KEY   type is UUID
+    @GeneratedValue(generator = "jpa-uuid")
+    @Column(length = 32)
+    private String coin_id;//KEY   type is UUID
 
     private String coin_type;//BTC or ETH
 
@@ -36,5 +38,4 @@ Parameter:
     private String coin_direction;//sell or buy
 
     private String coin_source;//huobi or kraken
-
   
