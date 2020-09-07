@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/digitalCurrency?serverTimezone=UTC
     username: root
-    password: 
+    password: lyl961008
 
   jpa:
      hibernate:
