@@ -1,5 +1,4 @@
 # digitalCurrency
-## The interview project of Chainalysis
 #### Introduce
   Used to show real-time of BTC and ETH prices, data got from Huobi.com and Kraken.com
 #### Requirments
